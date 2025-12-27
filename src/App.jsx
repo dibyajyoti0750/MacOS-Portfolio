@@ -6,6 +6,7 @@ import {
   Contact,
   Finder,
   Image,
+  Photos,
   Resume,
   Safari,
   Terminal,
@@ -29,6 +30,7 @@ export default function App() {
       <Image />
       <Contact />
       <Home />
+      <Photos />
     </main>
   );
 }
