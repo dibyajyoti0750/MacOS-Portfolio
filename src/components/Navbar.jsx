@@ -1,6 +1,14 @@
 import dayjs from "dayjs";
-import { navIcons, navLinks } from "#constants";
+import { navLinks } from "#constants";
 import useWindowStore from "#store/window";
+import { Search, ToggleRight, User, Wifi } from "lucide-react";
+
+const navIcons = [
+  { id: 1, icon: Wifi },
+  { id: 2, icon: Search },
+  { id: 3, icon: User },
+  { id: 4, icon: ToggleRight },
+];
 
 export default function Navbar() {
   const { openWindow } = useWindowStore();
@@ -8,7 +16,10 @@ export default function Navbar() {
   return (
     <nav>
       <div>
-        <img src="/images/logo.svg" alt="logo" />
+        <div className="w-3.5 h-3.5 object-cover">
+          <img src="/images/apple.svg" alt="logo" />
+        </div>
+
         <p className="font-bold">Dibyajyoti's Portfolio</p>
 
         <ul>
@@ -22,14 +33,14 @@ export default function Navbar() {
 
       <div>
         <ul>
-          {navIcons.map(({ id, img }) => (
-            <li key={id}>
-              <img src={img} className="icon-hover" alt={`icon-${id}`} />
+          {navIcons.map((item) => (
+            <li key={item.id} className="icon-hover">
+              <item.icon size={16} strokeWidth={2.75} />
             </li>
           ))}
         </ul>
 
-        <time>{dayjs().format("ddd MMM D h:mm A")}</time>
+        <time className="text-white">{dayjs().format("ddd MMM D h:mm A")}</time>
       </div>
     </nav>
   );

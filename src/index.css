@@ -37,7 +37,11 @@ body {
   }
 
   nav {
-    @apply flex justify-between items-center bg-white/50 backdrop-blur-3xl p-2 px-5 select-none;
+    @apply flex justify-between items-center bg-black/20 backdrop-blur-2xl text-white p-3 px-5 select-none;
+
+    .icon-hover {
+      @apply p-0.5 hover:bg-gray-500 rounded;
+    }
 
     div {
       @apply flex items-center max-sm:w-full max-sm:justify-center gap-5;
