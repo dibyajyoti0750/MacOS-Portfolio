@@ -25,7 +25,7 @@ const Text = () => {
         ) : null}
 
         {subtitle ? (
-          <h3 className="text-lg font-semibold">{subtitle}</h3>
+          <h3 className="text-lg font-semibold text-white">{subtitle}</h3>
         ) : null}
 
         {Array.isArray(description) && description.length > 0 ? (

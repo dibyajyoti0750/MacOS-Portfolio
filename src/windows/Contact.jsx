@@ -11,14 +11,16 @@ const Contact = () => {
       </div>
 
       <div className="p-5 space-y-5">
-        <img
-          src="/images/adrian.jpg"
-          alt="Dibyajyoti"
-          className="w-20 rounded-full"
-        />
+        <div className="w-20 h-20 rounded-full overflow-hidden">
+          <img
+            src="/images/me.jpeg"
+            alt="Dibyajyoti"
+            className="w-full h-full object-cover"
+          />
+        </div>
 
         <h3>Let's Connect</h3>
-        <p>Got an idea? A bug to squash? Or just wanna talk tech? I'm in.</p>
+        <p>Something in mind? Happy to discuss.</p>
         <p className="text-sky-600">
           <a href="mailto:dibyajyotipramanick0750@gmail.com">
             dibyajyotipramanick0750@gmail.com

@@ -131,29 +131,29 @@ const socials = [
     id: 1,
     text: "Github",
     icon: "/icons/github.svg",
-    bg: "#f4656b",
-    link: "https://github.com/JavaScript-Mastery-Pro",
+    bg: "#F4656B",
+    link: "https://github.com/dibyajyoti0750",
   },
   {
     id: 2,
-    text: "Platform",
-    icon: "/icons/atom.svg",
-    bg: "#4bcb63",
-    link: "https://jsmastery.com/",
+    text: "LinkedIn",
+    icon: "/icons/linkedin.svg",
+    bg: "#0046FF",
+    link: "https://www.linkedin.com/in/dibyajyotipramanick/",
   },
   {
     id: 3,
-    text: "Twitter/X",
+    text: "Twitter / X",
     icon: "/icons/twitter.svg",
-    bg: "#ff866b",
-    link: "https://x.com/jsmasterypro",
+    bg: "#33A1E0",
+    link: "https://x.com/developer_dj_",
   },
   {
     id: 4,
-    text: "LinkedIn",
-    icon: "/icons/linkedin.svg",
-    bg: "#05b6f6",
-    link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+    text: "Instagram",
+    icon: "/icons/instagram.svg",
+    bg: "#F75270",
+    link: "https://www.instagram.com/developer_dj/",
   },
 ];
 
@@ -225,15 +225,15 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: "GlowUp - Social Media Web App",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-10 left-5", // icon position inside Finder
+      position: "top-10 left-10", // icon position inside Finder
       windowPosition: "top-[5vh] left-10", // optional: Finder window position
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "GlowUp.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
@@ -247,7 +247,7 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "nike.com",
+          name: "glowup.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
@@ -256,7 +256,7 @@ const WORK_LOCATION = {
         },
         {
           id: 4,
-          name: "nike.png",
+          name: "glowup.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -266,7 +266,7 @@ const WORK_LOCATION = {
         {
           id: 5,
           name: "Design.fig",
-          icon: "/images/plain.png",
+          icon: "/images/docs.png",
           kind: "file",
           fileType: "fig",
           href: "https://google.com",
@@ -278,7 +278,7 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "AI Resume Analyzer",
+      name: "ChadGPT - AI Chat Application",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
@@ -286,7 +286,7 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "AI Resume Analyzer Project.txt",
+          name: "ChadGPT.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
@@ -300,7 +300,7 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "ai-resume-analyzer.com",
+          name: "chadgpt.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
@@ -309,7 +309,7 @@ const WORK_LOCATION = {
         },
         {
           id: 4,
-          name: "ai-resume-analyzer.png",
+          name: "chadgpt.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -319,7 +319,7 @@ const WORK_LOCATION = {
         {
           id: 5,
           name: "Design.fig",
-          icon: "/images/plain.png",
+          icon: "/images/docs.png",
           kind: "file",
           fileType: "fig",
           href: "https://google.com",
@@ -331,7 +331,7 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "Ascending - Learning Management System",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
@@ -339,7 +339,7 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "Ascending.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
@@ -353,7 +353,7 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
+          name: "ascending.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
@@ -362,7 +362,7 @@ const WORK_LOCATION = {
         },
         {
           id: 4,
-          name: "food-delivery-app.png",
+          name: "ascending.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -372,7 +372,7 @@ const WORK_LOCATION = {
         {
           id: 5,
           name: "Design.fig",
-          icon: "/images/plain.png",
+          icon: "/images/docs.png",
           kind: "file",
           fileType: "fig",
           href: "https://google.com",
@@ -392,30 +392,30 @@ const ABOUT_LOCATION = {
   children: [
     {
       id: 1,
-      name: "me.png",
+      name: "me.jpeg",
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/me.jpeg",
     },
     {
       id: 2,
-      name: "casual-me.png",
+      name: "broke-me.jpg",
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
+      imageUrl: "/images/me-2.jpg",
     },
     {
       id: 3,
-      name: "conference-me.png",
+      name: "unemployed-me.jpg",
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
+      imageUrl: "/images/me-3.jpg",
     },
     {
       id: 4,
@@ -425,12 +425,13 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      image: "/images/me.jpeg",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+        "Hey! I’m Dibyajyoti 👋 I enjoy building things for the web and understanding how everything fits together ⚙️",
+        "I’m still learning, experimenting, breaking things, and slowly turning ideas into something real.",
+        "I work across frontend and backend, polishing UI some days and handling APIs or logic on others.",
+        "I’m not an expert yet, just someone who enjoys learning new tools and improving step by step 🤓",
+        "Right now, my focus is building projects that work well, load fast, and feel good to use.",
       ],
     },
   ],
@@ -449,6 +450,7 @@ const RESUME_LOCATION = {
       icon: "/images/pdf.png",
       kind: "file",
       fileType: "pdf",
+      position: "top-10 left-10",
       // you can add `href` if you want to open a hosted resume
       // href: "/your/resume/path.pdf",
     },
