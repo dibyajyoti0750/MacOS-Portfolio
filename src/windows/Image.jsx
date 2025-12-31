@@ -25,7 +25,7 @@ const Image = () => {
         </div>
       </div>
 
-      <div className="p-2 bg-amber-50">
+      <div className="p-2 bg-cyan-200">
         {imageUrl ? (
           <div className="w-full">
             <img

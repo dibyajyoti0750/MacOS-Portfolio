@@ -188,19 +188,19 @@ const photosLinks = [
 const gallery = [
   {
     id: 1,
-    img: "/images/gal1.png",
+    img: "/images/gal1.jpg",
   },
   {
     id: 2,
-    img: "/images/gal2.png",
+    img: "/images/gal2.jpeg",
   },
   {
     id: 3,
-    img: "/images/gal3.png",
+    img: "/images/gal3.jpg",
   },
   {
     id: 4,
-    img: "/images/gal4.png",
+    img: "/images/gal4.jpeg",
   },
 ];
 
@@ -229,7 +229,7 @@ const WORK_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-10", // icon position inside Finder
-      windowPosition: "top-[5vh] left-10", // optional: Finder window position
+      windowPosition: "top-[5vh] left-8", // optional: Finder window position
       children: [
         {
           id: 1,
@@ -237,12 +237,13 @@ const WORK_LOCATION = {
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
-          position: "top-5 left-10",
+          position: "top-10 left-10",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "GlowUp is a full stack social media web application built using the MERN stack, designed to help users connect, share, and grow together.",
+            "Users can create profiles, share posts and stories, like and comment, and chat in real time.",
+            "The platform focuses on a clean, responsive UI and smooth user experience across devices.",
+            "The backend handles authentication, data storage, and APIs efficiently, while the frontend ensures fast and dynamic interactions.",
+            "GlowUp showcases practical implementation of modern web technologies, scalable architecture, and real world features expected in a production ready social media application.",
           ],
         },
         {
@@ -251,7 +252,7 @@ const WORK_LOCATION = {
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          href: "https://glow-up-social-media-app-prod-front.vercel.app/",
           position: "top-10 right-20",
         },
         {
@@ -260,8 +261,8 @@ const WORK_LOCATION = {
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
-          position: "top-52 right-80",
-          imageUrl: "/images/project-1.png",
+          position: "top-52 right-82",
+          imageUrl: "/images/ss1.png",
         },
         {
           id: 5,
@@ -270,7 +271,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "fig",
           href: "https://google.com",
-          position: "top-60 right-20",
+          position: "top-52 right-20",
         },
       ],
     },
@@ -282,7 +283,7 @@ const WORK_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
-      windowPosition: "top-[20vh] left-8",
+      windowPosition: "top-[18vh] left-8",
       children: [
         {
           id: 1,
@@ -292,10 +293,12 @@ const WORK_LOCATION = {
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-            "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-            "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-            "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+            "ChadGPT is a full stack ChatGPT inspired web application built using the MERN stack.",
+            "It allows users to have real time, AI powered conversations through a clean and responsive interface.",
+            "The project focuses on seamless user experience, fast responses, and scalable backend architecture.",
+            "It includes features like user authentication, chat history management, and dynamic message rendering.",
+            "The frontend is built with modern React practices, while the backend handles API communication, data storage, and request optimization.",
+            "ChadGPT demonstrates my understanding of full stack development, API integration, state management, and building real world applications that combine usability with performance.",
           ],
         },
         {
@@ -304,7 +307,7 @@ const WORK_LOCATION = {
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          href: "https://chad-gpt-frontend-dj.vercel.app/",
           position: "top-20 left-20",
         },
         {
@@ -314,7 +317,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "img",
           position: "top-52 left-80",
-          imageUrl: "/images/project-2.png",
+          imageUrl: "/images/ss5.png",
         },
         {
           id: 5,
@@ -331,43 +334,43 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Ascending - Learning Management System",
+      name: "Ascend - Learning Management System",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
-      windowPosition: "top-[35vh] left-8",
+      windowPosition: "top-[32vh] left-8",
       children: [
         {
           id: 1,
-          name: "Ascending.txt",
+          name: "Ascend.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
-          position: "top-5 left-10",
+          position: "top-10 left-35",
           description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quibusdam cumque omnis nam laborum dicta vel corrupti odio placeat!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quibusdam cumque omnis nam laborum dicta vel corrupti odio placeat!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quibusdam cumque omnis nam laborum dicta vel corrupti odio placeat!",
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quibusdam cumque omnis nam laborum dicta vel corrupti odio placeat!",
           ],
         },
         {
           id: 2,
-          name: "ascending.com",
+          name: "ascend.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
-          position: "top-10 right-20",
+          href: "https://www.google.com",
+          position: "top-10 left-5",
         },
         {
           id: 4,
-          name: "ascending.png",
+          name: "ascend.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
-          position: "top-52 right-80",
-          imageUrl: "/images/project-3.png",
+          position: "top-10 right-40",
+          imageUrl: "https://placehold.co/600x400?text=Coming+Soon...",
         },
         {
           id: 5,
@@ -376,7 +379,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "fig",
           href: "https://google.com",
-          position: "top-60 right-20",
+          position: "top-10 right-12",
         },
       ],
     },
