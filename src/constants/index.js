@@ -200,7 +200,7 @@ const gallery = [
   },
   {
     id: 4,
-    img: "/images/gal4.jpeg",
+    img: "/images/gal4.jpg",
   },
 ];
 
