@@ -60,7 +60,13 @@ const Safari = () => {
               <div className="content">
                 <p>{date}</p>
                 <h3>{title}</h3>
-                <a href={link} target="_blank" rel="noopener noreferrer">
+                <a
+                  onClick={() =>
+                    alert("Working on it. Will be available ASAP.")
+                  }
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Check out the full post <MoveRight className="icon-hover" />
                 </a>
               </div>
