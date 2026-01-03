@@ -4,9 +4,13 @@ import { dockApps } from "#constants";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import useWindowStore from "#store/window";
+import { locations } from "#constants";
+import useLocationStore from "#store/location";
 
 export default function Dock() {
   const { openWindow, closeWindow, windows } = useWindowStore();
+  const { setActiveLocation } = useLocationStore();
+
   const dockRef = useRef(null);
 
   useGSAP(() => {
@@ -62,6 +66,12 @@ export default function Dock() {
 
   const toggleApp = (app) => {
     if (!app.canOpen) return;
+
+    if (app.id === "trash") {
+      openWindow("finder");
+      setActiveLocation(locations.trash);
+      return;
+    }
 
     const window = windows[app.id];
 
