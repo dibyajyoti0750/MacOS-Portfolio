@@ -213,7 +213,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "GlowUp - Social Media Web App",
+      name: "GlowUp - Social Media Platform",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-10", // icon position inside Finder
@@ -267,11 +267,65 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
+      name: "Ascend - Learning Management System",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-10 left-80",
+      windowPosition: "top-[19vh] left-8",
+      children: [
+        {
+          id: 1,
+          name: "ascend.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://ascend-lms.vercel.app/",
+          position: "top-10 left-5",
+        },
+        {
+          id: 2,
+          name: "Ascend.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-10 left-35",
+          description: [
+            "Ascend is a full-stack learning management system built to empower instructors to create, publish, and monetize educational content while providing students with an intuitive learning experience.",
+            "The platform features course creation tools, video-based learning modules, progress tracking, and secure user authentication with role-based access control.",
+            "Students can browse courses, enroll in programs, track their learning progress, and engage with course content through an interactive interface.",
+            "Instructors have access to comprehensive dashboards for managing courses, uploading content, and monitoring student engagement and performance.",
+            "Ascend demonstrates the implementation of complex features like content management, payment integration, media handling, and scalable architecture suitable for an ed-tech platform.",
+          ],
+        },
+        {
+          id: 3,
+          name: "ascend.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-10 right-40",
+          imageUrl: "/images/ascend-ss.png",
+        },
+        {
+          id: 4,
+          name: "Design.fig",
+          icon: "/images/docs.png",
+          kind: "file",
+          fileType: "fig",
+          href: "https://google.com",
+          position: "top-10 right-12",
+        },
+      ],
+    },
+
+    // ▶ Project 3
+    {
+      id: 7,
       name: "ChadGPT - AI Chat Application",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
-      windowPosition: "top-[18vh] left-8",
+      windowPosition: "top-[33vh] left-8",
       children: [
         {
           id: 1,
@@ -315,59 +369,6 @@ const WORK_LOCATION = {
           fileType: "fig",
           href: "https://google.com",
           position: "top-60 left-5",
-        },
-      ],
-    },
-
-    // ▶ Project 3
-    {
-      id: 7,
-      name: "Ascend - Learning Management System",
-      icon: "/images/folder.png",
-      kind: "folder",
-      position: "top-10 left-80",
-      windowPosition: "top-[32vh] left-8",
-      children: [
-        {
-          id: 1,
-          name: "Ascend.txt",
-          icon: "/images/txt.png",
-          kind: "file",
-          fileType: "txt",
-          position: "top-10 left-35",
-          description: [
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quibusdam cumque omnis nam laborum dicta vel corrupti odio placeat!",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quibusdam cumque omnis nam laborum dicta vel corrupti odio placeat!",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quibusdam cumque omnis nam laborum dicta vel corrupti odio placeat!",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quibusdam cumque omnis nam laborum dicta vel corrupti odio placeat!",
-          ],
-        },
-        {
-          id: 2,
-          name: "ascend.com",
-          icon: "/images/safari.png",
-          kind: "file",
-          fileType: "url",
-          href: "https://www.google.com",
-          position: "top-10 left-5",
-        },
-        {
-          id: 4,
-          name: "ascend.png",
-          icon: "/images/image.png",
-          kind: "file",
-          fileType: "img",
-          position: "top-10 right-40",
-          imageUrl: "https://placehold.co/600x400?text=Coming+Soon...",
-        },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/docs.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-10 right-12",
         },
       ],
     },

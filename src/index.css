@@ -270,7 +270,7 @@ body {
     }
 
     .gallery {
-      @apply p-5;
+      @apply p-3.5;
 
       ul {
         @apply grid grid-cols-5 gap-3 auto-rows-max;
@@ -281,15 +281,15 @@ body {
           }
 
           &:first-child {
-            @apply row-start-1 row-span-3 col-start-1 col-span-3 aspect-square;
+            @apply row-start-1 row-span-3 col-start-1 col-span-3 aspect-3/4;
           }
 
           &:nth-child(2) {
-            @apply row-start-1 row-span-3 col-start-4 col-span-2 aspect-3/4;
+            @apply row-start-1 row-span-3 col-start-4 col-span-3 aspect-3/4;
           }
 
           &:nth-child(3) {
-            @apply row-start-4 row-span-2 col-start-3 col-span-3 aspect-3/4;
+            @apply row-start-4 row-span-2 col-start-3 col-span-4 aspect-3/4;
           }
 
           &:last-child {
