@@ -87,14 +87,14 @@ const blogPosts = [
     date: "Coming soon...",
     title: "Clerk Webhooks and Inngest: A Complete Integration Guide",
     image: "/images/leaf.png",
-    link: "google.com",
+    link: "https://google.com",
   },
   {
     id: 3,
     date: "Coming soon...",
     title: "State Management in React with Redux Toolkit for Beginners",
     image: "/images/shield.png",
-    link: "google.com",
+    link: "https://google.com",
   },
 ];
 

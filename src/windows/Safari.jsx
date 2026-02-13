@@ -60,8 +60,17 @@ const Safari = () => {
               <div className="content">
                 <p>{date}</p>
                 <h3>{title}</h3>
-                <a href={link} target="_blank" rel="noopener noreferrer">
-                  Check out the full post <MoveRight className="icon-hover" />
+                <a
+                  href={link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group"
+                >
+                  Check out the full post
+                  <MoveRight
+                    size={16}
+                    className="opacity-0 -translate-x-1.25 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-in-out"
+                  />
                 </a>
               </div>
             </div>
