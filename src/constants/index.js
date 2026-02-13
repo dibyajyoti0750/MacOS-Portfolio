@@ -77,16 +77,23 @@ const dockApps = [
 const blogPosts = [
   {
     id: 1,
-    date: "Coming soon...",
-    title: "Clerk Webhooks and Inngest: A Complete Integration Guide",
-    image: "/images/blog1.png",
-    link: "google.com",
+    date: "13/02/2026",
+    title: "How to Integrate Razorpay in a MERN App with Backend Verification",
+    image: "/images/coin.png",
+    link: "https://dev.to/dibyajyoti_0750/how-to-integrate-razorpay-in-a-mern-app-with-backend-verification-1m8h",
   },
   {
     id: 2,
     date: "Coming soon...",
+    title: "Clerk Webhooks and Inngest: A Complete Integration Guide",
+    image: "/images/leaf.png",
+    link: "google.com",
+  },
+  {
+    id: 3,
+    date: "Coming soon...",
     title: "State Management in React with Redux Toolkit for Beginners",
-    image: "/images/blog2.png",
+    image: "/images/shield.png",
     link: "google.com",
   },
 ];
