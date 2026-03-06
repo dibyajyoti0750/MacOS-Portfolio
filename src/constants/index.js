@@ -219,66 +219,13 @@ const WORK_LOCATION = {
   children: [
     // ▶ Project 1
     {
-      id: 5,
-      name: "GlowUp - Social Media Platform",
-      icon: "/images/folder.png",
-      kind: "folder",
-      position: "top-10 left-10", // icon position inside Finder
-      windowPosition: "top-[5vh] left-8", // optional: Finder window position
-      children: [
-        {
-          id: 1,
-          name: "GlowUp.txt",
-          icon: "/images/txt.png",
-          kind: "file",
-          fileType: "txt",
-          position: "top-10 left-10",
-          description: [
-            "GlowUp is a full stack social media web application built using the MERN stack, designed to help users connect, share, and grow together.",
-            "Users can create profiles, share posts and stories, like and comment, and chat in real time.",
-            "The platform focuses on a clean, responsive UI and smooth user experience across devices.",
-            "The backend handles authentication, data storage, and APIs efficiently, while the frontend ensures fast and dynamic interactions.",
-            "GlowUp showcases practical implementation of modern web technologies, scalable architecture, and real world features expected in a production ready social media application.",
-          ],
-        },
-        {
-          id: 2,
-          name: "glowup.com",
-          icon: "/images/safari.png",
-          kind: "file",
-          fileType: "url",
-          href: "https://glow-up-social-media-app-prod-front.vercel.app/",
-          position: "top-10 right-20",
-        },
-        {
-          id: 4,
-          name: "glowup.png",
-          icon: "/images/image.png",
-          kind: "file",
-          fileType: "img",
-          position: "top-52 right-82",
-          imageUrl: "/images/ss1.png",
-        },
-        {
-          id: 5,
-          name: "Design.fig",
-          icon: "/images/docs.png",
-          kind: "file",
-          fileType: "fig",
-          href: "https://google.com",
-          position: "top-52 right-20",
-        },
-      ],
-    },
-
-    // ▶ Project 2
-    {
       id: 6,
       name: "Ascend - Learning Management System",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-10 left-80",
-      windowPosition: "top-[19vh] left-8",
+      position: "top-10 left-10", // icon position inside Finder
+      windowPosition: "top-[5vh] left-8", // optional: Finder window position
+
       children: [
         {
           id: 1,
@@ -321,6 +268,60 @@ const WORK_LOCATION = {
           fileType: "fig",
           href: "https://google.com",
           position: "top-10 right-12",
+        },
+      ],
+    },
+
+    // ▶ Project 2
+    {
+      id: 5,
+      name: "GlowUp - Social Media Platform",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-10 left-80",
+      windowPosition: "top-[19vh] left-8",
+      children: [
+        {
+          id: 1,
+          name: "GlowUp.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-10 left-10",
+          description: [
+            "GlowUp is a full stack social media web application built using the MERN stack, designed to help users connect, share, and grow together.",
+            "Users can create profiles, share posts and stories, like and comment, and chat in real time.",
+            "The platform focuses on a clean, responsive UI and smooth user experience across devices.",
+            "The backend handles authentication, data storage, and APIs efficiently, while the frontend ensures fast and dynamic interactions.",
+            "GlowUp showcases practical implementation of modern web technologies, scalable architecture, and real world features expected in a production ready social media application.",
+          ],
+        },
+        {
+          id: 2,
+          name: "glowup.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://glow-up-social-media-app-prod-front.vercel.app/",
+          position: "top-10 right-20",
+        },
+        {
+          id: 4,
+          name: "glowup.png",
+          icon: "/images/image.png",
+          kind: "file",
+          fileType: "img",
+          position: "top-52 right-82",
+          imageUrl: "/images/ss1.png",
+        },
+        {
+          id: 5,
+          name: "Design.fig",
+          icon: "/images/docs.png",
+          kind: "file",
+          fileType: "fig",
+          href: "https://google.com",
+          position: "top-52 right-20",
         },
       ],
     },
@@ -478,8 +479,17 @@ const TRASH_LOCATION = {
       icon: "/images/image.png",
       kind: "file",
       fileType: "img",
-      position: "top-40 left-80",
+      position: "top-10 right-20",
       imageUrl: "/images/trash-2.png",
+    },
+    {
+      id: 3,
+      name: "trash3.png",
+      icon: "/images/image.png",
+      kind: "file",
+      fileType: "img",
+      position: "top-50 left-50",
+      imageUrl: "/images/trash-3.png",
     },
   ],
 };

@@ -22,9 +22,7 @@ const Contact = () => {
         <h3>Let's Connect</h3>
         <p>Something in mind? Happy to discuss.</p>
         <p className="text-sky-600">
-          <a href="mailto:dibyajyotipramanick0750@gmail.com">
-            dibyajyotipramanick0750@gmail.com
-          </a>
+          <a href="mailto:developerdj996@gmail.com">developerdj996@gmail.com</a>
         </p>
 
         <ul>
