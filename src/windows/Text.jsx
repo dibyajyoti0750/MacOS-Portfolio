@@ -17,19 +17,23 @@ const Text = () => {
         <h2>{name}</h2>
       </div>
 
-      <div className="p-5 space-y-6">
+      <div className="p-5 space-y-4">
         {image ? (
           <div className="w-full">
-            <img src={image} alt={name} className="w-full h-auto rounded" />
+            <img
+              src={image}
+              alt={name}
+              className="w-full h-auto object-cover rounded"
+            />
           </div>
         ) : null}
 
         {subtitle ? (
-          <h3 className="text-lg font-semibold text-white">{subtitle}</h3>
+          <h3 className="text-lg font-semibold text-white pt-2">{subtitle}</h3>
         ) : null}
 
         {Array.isArray(description) && description.length > 0 ? (
-          <div className="space-y-3 leading-relaxed text-base text-white">
+          <div className="space-y-3 leading-relaxed text-base text-white max-h-[20vh] overflow-y-auto pr-2">
             {description.map((para, idx) => (
               <p key={idx}>{para}</p>
             ))}
