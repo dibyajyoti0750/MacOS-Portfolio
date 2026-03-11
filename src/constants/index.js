@@ -148,7 +148,7 @@ const socials = [
     text: "Instagram",
     icon: "/icons/instagram.svg",
     bg: "#F75270",
-    link: "https://www.instagram.com/developer_dj/",
+    link: "https://www.instagram.com/djonsidequest/",
   },
 ];
 

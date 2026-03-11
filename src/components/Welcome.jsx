@@ -77,9 +77,9 @@ export default function Welcome() {
     <section id="welcome">
       <p ref={subtitleRef}>
         {renderText(
-          "Hey, I'm Dibyajyoti! Welcome to my",
+          "Hey, I'm Dibyajyoti, a.k.a. DJ & welcome to my",
           "text-3xl font-georama",
-          100
+          100,
         )}
       </p>
       <h1 ref={titleRef} className="mt-7">
