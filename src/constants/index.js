@@ -84,17 +84,17 @@ const blogPosts = [
   },
   {
     id: 2,
-    date: "Coming soon...",
+    date: "04/05/2026",
     title: "Clerk Webhooks and Inngest: A Complete Integration Guide",
     image: "/images/leaf.png",
-    link: "https://google.com",
+    link: "https://dev.to/dibyajyoti_0750/clerk-webhooks-and-inngest-a-complete-integration-guide-456d",
   },
   {
     id: 3,
-    date: "Coming soon...",
+    date: "04/05/2026",
     title: "State Management in React with Redux Toolkit for Beginners",
     image: "/images/shield.png",
-    link: "https://google.com",
+    link: "https://dev.to/dibyajyoti_0750/state-management-in-react-with-redux-toolkit-beginner-friendly-guide-oph",
   },
 ];
 

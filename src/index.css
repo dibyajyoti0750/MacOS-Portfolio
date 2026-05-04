@@ -7,7 +7,7 @@ body {
   width: 100dvw;
   overflow: hidden;
   height: 100dvh;
-  background-image: url("/images/bgimage.jpg");
+  background-image: url("images/26-Tahoe-Dark-6K.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -63,7 +63,7 @@ body {
   }
 
   nav {
-    @apply flex justify-between items-center bg-gray-500/20 backdrop-blur-2xl text-white py-2 px-5 select-none;
+    @apply flex justify-between items-center bg-gray-500/50 backdrop-blur-md text-white py-2 px-5 select-none;
 
     .icon-hover {
       @apply p-0.5 hover:bg-gray-500 rounded;
@@ -412,7 +412,7 @@ body {
         @apply absolute z-0 select-none flex items-center flex-col;
 
         img {
-          @apply group-hover:bg-gray-950/10 p-1 rounded-md;
+          @apply group-hover:bg-gray-950/30 px-2 py-1 rounded-md;
         }
 
         p {
