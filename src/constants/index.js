@@ -148,7 +148,7 @@ const socials = [
     text: "Instagram",
     icon: "/icons/instagram.svg",
     bg: "#F75270",
-    link: "https://www.instagram.com/djonsidequest/",
+    link: "https://www.instagram.com/callme_dj_2003/",
   },
 ];
 
@@ -220,29 +220,29 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 6,
-      name: "Ascend - Learning Management System",
+      name: "Ascend Academy - LMS",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-10", // icon position inside Finder
-      windowPosition: "top-[5vh] left-8", // optional: Finder window position
+      windowPosition: "top-[6vh] left-8", // optional: Finder window position
 
       children: [
         {
           id: 1,
-          name: "ascend.com",
+          name: "ascend-academy-lms.vercel.app",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://ascend-lms.vercel.app/",
+          href: "https://ascend-academy-lms.vercel.app/",
           position: "top-10 left-5",
         },
         {
           id: 2,
-          name: "Ascend.txt",
+          name: "Ascend-Academy.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
-          position: "top-10 left-35",
+          position: "top-10 left-55",
           description: [
             "Ascend is a full-stack learning management system built to empower instructors to create, publish, and monetize educational content while providing students with an intuitive learning experience.",
             "The platform features course creation tools, video-based learning modules, progress tracking, and secure user authentication with role-based access control.",
@@ -253,12 +253,12 @@ const WORK_LOCATION = {
         },
         {
           id: 3,
-          name: "ascend.png",
+          name: "ascend-academy.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
-          position: "top-10 right-40",
-          imageUrl: "/images/ascend-ss.png",
+          position: "bottom-15 right-50",
+          imageUrl: "/images/ascend-academy-lms.vercel.app_.png",
         },
         {
           id: 4,
@@ -267,7 +267,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "fig",
           href: "https://google.com",
-          position: "top-10 right-12",
+          position: "top-10 right-2",
         },
       ],
     },
