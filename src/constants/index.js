@@ -244,11 +244,10 @@ const WORK_LOCATION = {
           fileType: "txt",
           position: "top-10 left-55",
           description: [
-            "Ascend is a full-stack learning management system built to empower instructors to create, publish, and monetize educational content while providing students with an intuitive learning experience.",
-            "The platform features course creation tools, video-based learning modules, progress tracking, and secure user authentication with role-based access control.",
-            "Students can browse courses, enroll in programs, track their learning progress, and engage with course content through an interactive interface.",
-            "Instructors have access to comprehensive dashboards for managing courses, uploading content, and monitoring student engagement and performance.",
-            "Ascend demonstrates the implementation of complex features like content management, payment integration, media handling, and scalable architecture suitable for an ed-tech platform.",
+            "Ascend Academy is a full-stack learning management system where instructors can create, publish, and sell online courses, while students can enroll and learn through an easy-to-use interface.",
+            "The platform includes secure authentication, role-based access, course management, video lessons, progress tracking, and payment integration.",
+            "Students can browse courses, enroll in them, and track their learning progress. Instructors can manage courses, upload content, and monitor student activity through dedicated dashboards.",
+            "This project showcases real-world full-stack development concepts such as authentication, content management, media uploads, payments, and scalable application architecture.",
           ],
         },
         {
@@ -279,7 +278,7 @@ const WORK_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
-      windowPosition: "top-[19vh] left-8",
+      windowPosition: "top-[20vh] left-8",
       children: [
         {
           id: 1,
@@ -289,11 +288,10 @@ const WORK_LOCATION = {
           fileType: "txt",
           position: "top-10 left-10",
           description: [
-            "GlowUp is a full stack social media web application built using the MERN stack, designed to help users connect, share, and grow together.",
-            "Users can create profiles, share posts and stories, like and comment, and chat in real time.",
-            "The platform focuses on a clean, responsive UI and smooth user experience across devices.",
-            "The backend handles authentication, data storage, and APIs efficiently, while the frontend ensures fast and dynamic interactions.",
-            "GlowUp showcases practical implementation of modern web technologies, scalable architecture, and real world features expected in a production ready social media application.",
+            "GlowUp is a full-stack social media platform built with the MERN stack that allows users to connect, share content, and interact with others.",
+            "Users can create profiles, share posts and stories, like and comment on content, and chat with other users in real time.",
+            "The platform features a clean, responsive design that works smoothly across desktop and mobile devices.",
+            "This project demonstrates real-world full-stack development concepts, including authentication, real-time messaging, database management, REST APIs, and scalable application architecture.",
           ],
         },
         {
@@ -333,7 +331,7 @@ const WORK_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
-      windowPosition: "top-[33vh] left-8",
+      windowPosition: "top-[36vh] left-8",
       children: [
         {
           id: 1,
@@ -343,12 +341,11 @@ const WORK_LOCATION = {
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "ChadGPT is a full stack ChatGPT inspired web application built using the MERN stack.",
-            "It allows users to have real time, AI powered conversations through a clean and responsive interface.",
-            "The project focuses on seamless user experience, fast responses, and scalable backend architecture.",
-            "It includes features like user authentication, chat history management, and dynamic message rendering.",
-            "The frontend is built with modern React practices, while the backend handles API communication, data storage, and request optimization.",
-            "ChadGPT demonstrates my understanding of full stack development, API integration, state management, and building real world applications that combine usability with performance.",
+            "ChadGPT is a full-stack AI chat application inspired by ChatGPT, built using the MERN stack.",
+            "Users can have AI-powered conversations through a clean and responsive interface designed for a smooth chatting experience.",
+            "The application includes features such as user authentication, chat history management, and real-time message rendering.",
+            "Built with modern React practices on the frontend and a scalable backend architecture, the project handles API integration, data storage, and efficient request processing.",
+            "This project showcases my skills in full-stack development, API integration, state management, and building real-world applications that combine performance with usability.",
           ],
         },
         {
