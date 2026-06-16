@@ -8,7 +8,7 @@ import "react-pdf/dist/Page/TextLayer.css";
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
   "pdfjs-dist/build/pdf.worker.min.mjs",
-  import.meta.url
+  import.meta.url,
 ).toString();
 
 const Resume = () => {
@@ -19,7 +19,7 @@ const Resume = () => {
         <h2>Resume.pdf</h2>
 
         <a
-          href="files/Resume.pdf"
+          href="files/Old-Resume.pdf"
           download
           className="cursor-pointer"
           title="Download resume"
@@ -28,7 +28,7 @@ const Resume = () => {
         </a>
       </div>
 
-      <Document file="files/Resume.pdf">
+      <Document file="files/Old-Resume.pdf">
         <Page pageNumber={1} renderTextLayer renderAnnotationLayer />
       </Document>
     </>
