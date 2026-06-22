@@ -7,7 +7,7 @@ body {
   width: 100dvw;
   overflow: hidden;
   height: 100dvh;
-  background-image: url("public/images/26-Tahoe-Dark-6K.webp");
+  background-image: url("/images/26-Tahoe-Dark-6K.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
